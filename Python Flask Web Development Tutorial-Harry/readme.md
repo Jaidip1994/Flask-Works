@@ -1,0 +1,2 @@
+- [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
+- [Flask Minimal App](https://flask.palletsprojects.com/en/2.0.x/quickstart/)
