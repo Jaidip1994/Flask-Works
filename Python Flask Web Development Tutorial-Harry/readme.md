@@ -27,3 +27,16 @@ Todo.query.all()
 # Fetch record based on Filter Condition
 Todo.query.filter_by(sno=1).first()
 ```
+
+- How the Apps looks like
+![image](https://user-images.githubusercontent.com/11685096/147420308-517a0308-b1cc-44bc-adcc-da09f1201e92.png)
+
+- Currently Application Database is postgres
+- Install the dependencies using the [Requirements File](https://github.com/Jaidip1994/Flask-Works/blob/main/Python%20Flask%20Web%20Development%20Tutorial-Harry/requirements.txt)
+```python
+pip install -r requirements.txt
+```
+- Start the application, using the below command
+```python
+python app.py
+```
