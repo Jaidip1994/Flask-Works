@@ -1,0 +1,14 @@
+h1 {
+    font-family: Calibri;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#two{
+    font-family: 'Comforter', cursive;
+}
