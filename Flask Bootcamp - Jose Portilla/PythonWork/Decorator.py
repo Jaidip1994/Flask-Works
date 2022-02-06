@@ -25,7 +25,10 @@
 
 # other(hello)
 
+from functools import wraps
+
 def new_decorator(func):
+    @wraps(func)
     def wrapper():
         print('Inside another function')
         func()
@@ -38,3 +41,4 @@ def func_needs_decorator():
 
 # new_decorator(func_needs_decorator)()
 func_needs_decorator()
+print(func_needs_decorator.__name__) # Because of Wraps it will show the actual Function name
