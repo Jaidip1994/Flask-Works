@@ -2,4 +2,5 @@
 
 {% block content %}
     <h1>This is the puppy page for Puppy : {{name|capitalize}}</h1>
+    <a href="{{ url_for('getImage', imgName='lab.jfif') }}">Show me Puppy</a>
 {% endblock %}
